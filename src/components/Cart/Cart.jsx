@@ -18,8 +18,8 @@ const Cart = () => {
           Volver
         </button>
         <div className="text-center py-16">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4">Tu carrito está vacío</h2>
-          <p className="text-gray-600 mb-8">Agrega algunos productos a tu carrito para continuar comprando</p>
+          <h2 className="text-2xl font-bold text-gray-700 mb-4">Tu carrito está vacío</h2>
+          <p className="text-gray-500 mb-8">Agrega algunos productos a tu carrito para continuar comprando</p>
           <button
             onClick={() => navigate('/')}
             className="bg-indigo-600 text-white py-2 px-6 rounded-md hover:bg-indigo-700"
@@ -41,7 +41,7 @@ const Cart = () => {
         Volver
       </button>
 
-      <h1 className="text-3xl font-bold text-gray-800 mb-8">Carrito</h1>
+      <h1 className="text-3xl font-bold text-gray-700 mb-8">Carrito</h1>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         <div className="lg:col-span-2">

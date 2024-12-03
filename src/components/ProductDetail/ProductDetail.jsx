@@ -39,7 +39,7 @@ const ProductDetail = () => {
   if (!product) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <p className="text-xl text-gray-600">Producto no encontrado</p>
+        <p className="text-xl text-gray-500">Producto no encontrado</p>
       </div>
     );
   }
@@ -68,19 +68,19 @@ const ProductDetail = () => {
           />
         </div>
         <div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-4">{product.name}</h1>
+          <h1 className="text-3xl font-bold text-gray-700 mb-4">{product.name}</h1>
           <p className="text-2xl font-bold text-indigo-600 mb-4">${product.price}</p>
           <p className="text-gray-600 mb-8">{product.description}</p>
           
           <div className="flex items-center mb-6">
-            <span className="mr-4 text-gray-700">Cantidad:</span>
+            <span className="mr-4 text-gray-600">Cantidad:</span>
             <button
               onClick={() => handleQuantityChange(-1)}
               className="p-2 rounded-l border border-gray-300 hover:bg-gray-100"
             >
               <Minus className="h-4 w-4" />
             </button>
-            <span className="px-4 py-2 border-t border-b border-gray-300">
+            <span className="px-4 py-2 border-t border-b border-gray-50 bg-gray-200">
               {quantity}
             </span>
             <button

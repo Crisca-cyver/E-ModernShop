@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
 
   return (
     <Link to={`/product/${id}`} className="group">
-      <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform group-hover:scale-105">
+      <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden transition-transform group-hover:scale-105">
         <img 
           src={image} 
           alt={name}
