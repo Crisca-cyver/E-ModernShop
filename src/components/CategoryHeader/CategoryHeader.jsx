@@ -10,7 +10,7 @@ const CategoryHeader = ({ categoryId }) => {
   };
 
   return (
-    <h2 className="text-xl text-gray-600 mb-6">
+    <h2 className="text-xl text-gray-600 mb-4">
       {categoryNames[categoryId] || categoryId}
     </h2>
   );
