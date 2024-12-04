@@ -93,7 +93,7 @@ const Cart = () => {
             </div>
             <button
               onClick={() => navigate('/checkout')}
-              className="w-full bg-indigo-600 text-white py-3 px-6 rounded-md hover:bg-indigo-700"
+              className="w-full bg-sky-600 text-white py-3 px-6 rounded-md hover:bg-indigo-700"
             >
               Finalizar Compra
             </button>
