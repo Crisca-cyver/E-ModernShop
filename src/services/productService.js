@@ -45,9 +45,9 @@ const mockProducts = [
   },
   {
     id: 7,
-    name: "Chaqueta Vaquera",
+    name: "Campera Vaquera",
     price: 89.99,
-    description: "Chaqueta vaquera clásica con ajuste moderno. Fabricada con tela vaquera de primera calidad con elasticidad cómoda y acabado vintage.",
+    description: "Campera jeans clásica con ajuste moderno. Fabricada con tela jeans de primera calidad con elasticidad cómoda y acabado vintage.",
     image: "",
     category: "clothing"
   },

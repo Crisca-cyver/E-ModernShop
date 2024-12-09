@@ -1,20 +1,10 @@
 import React from 'react';
 import { ShoppingCart } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import { useCart } from '../../context/CartContext';
 
 const CartWidget = () => {
-  const { items } = useCart();
+  const itemCount = 5; // Componente CartWidget: -Muestra  el ícono de carrito y una burbuja de notificación con un valor estático
   
-  const itemCount = items.reduce((total, item) => total + item.quantity, 0);
-
-  if (itemCount === 0) {
-    return (
-      <Link to="/cart" className="relative">
-        <ShoppingCart className="h-6 w-6 text-gray-600 hover:text-indigo-600" />
-      </Link>
-    );
-  }
 
   return (
     <Link to="/cart" className="relative">
